@@ -16,7 +16,7 @@
         <h1>Hi-Tech Institute of Engineering & Technology</h1>
         <p style="color: purple;">This is a sample web page of my my college.</p>
         <p id="intro" class="note">Hello paragraph!</p>
-        <!-- <style>
+        <style>
             #head1{
            width: 200px;
          height: 100px;
@@ -24,7 +24,13 @@
          border: 2px solid #000;
          margin: 10px;
          }
-        </style> -->
+       
+        html     { font-size: 16px; }   /* root */
+.parent  { font-size: 40px; }
+
+.em-text  { font-size: 2em; }   /* 2 × 20px (parent) = 40px */
+.rem-text { font-size: 2rem; }  /* 2 × 16px (root)   = 32px */
+</style>
     </header>
     <!--this is nav section-->
     <p style="color: rgb(11, 167, 229); font-size: 16px;">This is a blue paragraph with a font size of 16 pixels.</p>
@@ -92,6 +98,10 @@
             </strong>
         </div>
     </div>
+    <div class="parent">
+  <p class="em-text">I use em</p>
+  <p class="rem-text">I use rem</p>
+</div>
 </body>
 
 </html>

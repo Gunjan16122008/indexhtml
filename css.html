@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style2.css">
+ 
+
+   <style>
+       /* div, span{
+            color : red;
+            background-color : yellow;
+        } */
+
+       /*class selector*/
+       .red{
+        background-color: red;
+       }
+
+       /* id selector */
+       #green{
+        background-color: green;
+
+        /* element selector */
+      div> p{color: blue;
+        background-color: yellow;   
+     }
+
+       }
+       /* universal selector*/
+        *{
+        margin:0;
+        padding:0;
+       }
+      /* Pseudo selector*/
+      a:visited{
+        color:orange;
+     }
+     a:link{
+        color:green;
+     }
+     a:active{
+        background-color:rebeccapurple;
+     }
+     a:hover{
+        background-color: burlywood;
+     }
+
+     p:first-child{
+        background-color: aqua;
+     }
+    </style> 
+</head>
+<body>
+<main class=" one">
+    <p>I am first</p>
+    <p> I am second</p>
+    </p>
+</main>
+
+<h1 style="color: rgb(88, 163, 138); background-color:green">Three ways to add CSS to HTML</h1>
+<div  class="red">
+  
+    <ol>
+        <li>Inline CSS</li>
+        <li>Internal CSS</li>
+        <li>External CSS</li>
+    </ol>
+</div>
+
+
+
+    <div id="green"> Today i am learning CSS </div>
+    <span style="background-color: purple"> This is a span tag </span>
+    <p style="background-color: rgb(196, 68, 196)">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab cupiditate repellendus asperiores non quis repudiandae animi nam esse. Voluptatem, vel vero! Magni fugiat aliquam mollitia impedit nulla? Officiis enim quis asperiores iste, commodi deleniti suscipit adipisci exercitationem! Facere rem, amet molestias sit ipsa reiciendis quos tenetur consequuntur veniam, beatae praesentium dolores odit? Eligendi inventore similique soluta voluptates.</p>
+    
+<a href="https://www.google1.com">Go to google</a>
+<a href="https://www.facebook.com">Go to facebook</a>
+</body>
+</html>

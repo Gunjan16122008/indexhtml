@@ -1,0 +1,21 @@
+/* styles.css */
+p {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+#intro {
+  color: #0066cc;
+}
+
+.note {
+  font-size: 14px;
+  line-height: 1.5;
+  .head1{
+  width: 20px;
+  height: 10px;
+  padding: 0px;
+  border: 2px solid #000;
+  margin: 0px;
+  }
+}
